@@ -1,1 +1,1 @@
-A collection of plugins I use
+appleTV.js - Інтерфейс у вигляді Apple TV
