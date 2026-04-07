@@ -57,9 +57,9 @@
                 name: "applecation_poster_quality",
                 type: "select",
                 values: {
-                    low: "Низкое - 720p (HD): 1280 x 720",
-                    medium: "Среднее - 1080p (HD): 1920 x 1080",
-                    high: "Высокое - 4320p (8K): 7680 x 4320"
+                    low: "Низька - 720p (HD): 1280 x 720",
+                    medium: "Середня - 1080p (HD): 1920 x 1080",
+                    high: "Висока - 4320p (8K): 7680 x 4320"
                 },
                 default: "medium"
             },
