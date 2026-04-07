@@ -243,7 +243,6 @@
             onChange: function(n) {
                 Lampa.Storage.set("applecation_spacing_scale", n), o()
             }
-        })
         }), Lampa.Storage.get("applecation_show_ratings", !1) || $("body").addClass("applecation--hide-ratings"), $("body").addClass("applecation--ratings-" + Lampa.Storage.get("applecation_ratings_position", "card")), o(), Lampa.Listener.follow("full", n => {
             if(Lampa.Storage.get("applecation_description_overlay", !0) && function(n) {
                     if("start" === n.type && n.link) {
