@@ -243,61 +243,6 @@
             onChange: function(n) {
                 Lampa.Storage.set("applecation_spacing_scale", n), o()
             }
-        }), /* Lampa.SettingsApi.addParam({
-            component: "applecation_settings",
-            param: {
-                name: "applecation_download_updates",
-                type: "static"
-            },
-            field: {
-                name: "Скачать обновление"
-            },
-            onRender: function(n) {
-                try {
-                    n.addClass("selector"), n.on("hover:enter", function() {
-                        ! function() {
-                            $(".applecation-modal").remove(), $('style[data-id="applecation_tvigl_modal_css"]').remove(), $("body").append('<style data-id="applecation_tvigl_modal_css">.applecation-modal{position:fixed;inset:0;z-index:10000;display:flex;align-items:center;justify-content:center}.applecation-modal__bg{position:absolute;inset:0;background:rgba(0,0,0,.6)}.applecation-modal__content{position:relative;max-width:80vw;background:#1b1b1b;color:#fff;padding:1.5em;border-radius:.8em;box-shadow:0 0 20px rgba(0,0,0,.5)}.applecation-modal__text{margin:0 0 1em 0;line-height:1.5}.applecation-modal__buttons{display:flex;gap:.8em;justify-content:flex-end}.applecation-modal__btn{padding:.6em 1.2em;border-radius:.4em;background:#2a2a2a}.applecation-modal__btn.selector.focus{background:#3a3a3a}</style>'), Lampa.Template.add("applecation_tvigl_modal", '<div class="applecation-modal"><div class="applecation-modal__bg"></div><div class="applecation-modal__content"><div class="applecation-modal__text">Для загрузки обновления или поиска других полезных плагинов перейдите на сайт Tvigl.info</div><div class="applecation-modal__buttons"><div class="applecation-modal__btn selector js-go">Перейти</div><div class="applecation-modal__btn selector js-close">Закрыть</div></div></div></div>');
-                            var n = $(Lampa.Template.get("applecation_tvigl_modal", {}, !0));
-                            $("body").append(n);
-                            var e = n.find(".js-go"),
-                                t = n.find(".js-close");
-                            e.on("hover:enter", function() {
-                                try {
-                                    window.open("https://tvigl.info/85-plaginy-dlja-lampa.html", "_blank")
-                                } catch (n) {
-                                    location.href = "https://tvigl.info/85-plaginy-dlja-lampa.html"
-                                }
-                                n.remove(), Lampa.Controller.toggle("content")
-                            }), t.on("hover:enter", function() {
-                                n.remove(), Lampa.Controller.toggle("content")
-                            });
-                            var a = {
-                                toggle: function() {
-                                    Lampa.Controller.collectionSet(n), Lampa.Controller.collectionAppend(n), Lampa.Controller.collectionFocus(e, n)
-                                },
-                                left: function() {
-                                    var a = n.find(".selector.focus").hasClass("js-close") ? e : t;
-                                    Lampa.Controller.collectionFocus(a, n)
-                                },
-                                right: function() {
-                                    var a = n.find(".selector.focus").hasClass("js-go") ? t : e;
-                                    Lampa.Controller.collectionFocus(a, n)
-                                },
-                                up: function() {
-                                    this.left()
-                                },
-                                down: function() {
-                                    this.right()
-                                },
-                                back: function() {
-                                    n.remove(), Lampa.Controller.toggle("content")
-                                }
-                            };
-                            Lampa.Controller.add("applecation_tvigl_modal", a), Lampa.Controller.toggle("applecation_tvigl_modal")
-                        }()
-                    }), n.find(".settings-param__name").html("Скачать обновление")
-                } catch (n) {}
-            } */
         }), Lampa.Storage.get("applecation_show_ratings", !1) || $("body").addClass("applecation--hide-ratings"), $("body").addClass("applecation--ratings-" + Lampa.Storage.get("applecation_ratings_position", "card")), o(), Lampa.Listener.follow("full", n => {
             if(Lampa.Storage.get("applecation_description_overlay", !0) && function(n) {
                     if("start" === n.type && n.link) {
