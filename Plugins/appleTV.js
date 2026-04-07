@@ -725,7 +725,7 @@
         show_ratings_desc: {
             ru: "Отображать рейтинги IMDB и КиноПоиск",
             en: "Display IMDB and KinoPoisk ratings",
-            uk: "Відображати рейтинги IMDB та КіноПошук",
+            uk: "Відображати рейтинги IMDB",
             be: "Адлюстроўваць рэйтынгі IMDB і КіноПошук",
             bg: "Показване на рейтинги IMDB и КиноПоиск",
             cs: "Zobrazit hodnocení IMDB a KinoPoisk",
