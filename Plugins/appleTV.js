@@ -64,8 +64,8 @@
                 default: "medium"
             },
             field: {
-                name: "Качество постера",
-                description: "Выберите качество изображений постеров и фона"
+                name: "Якість постера",
+                description: "Оберіть якість зображень постерів та фону"
             },
             onChange: function(n) {
                 Lampa.Storage.set("applecation_poster_quality", n)
