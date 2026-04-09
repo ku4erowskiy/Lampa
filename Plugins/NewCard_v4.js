@@ -131,7 +131,7 @@ function loadLogo(event) {
     // Переклади  
     const translations = {  
         show_ratings: { uk: 'Показувати рейтинги' },  
-        show_ratings_desc: { uk: 'Відображати рейтинги IMDB та КіноПошук' },  
+        show_ratings_desc: { uk: 'Відображати рейтинги IMDB' },  
         ratings_position: { uk: 'Розташування рейтингів' },  
         ratings_position_desc: { uk: 'Виберіть де відображати рейтинги' },  
         position_card: { uk: 'У картці' },  
